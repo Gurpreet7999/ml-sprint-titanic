@@ -1,0 +1,7 @@
+# Ignore temporary and data files
+__pycache__/
+.ipynb_checkpoints/
+data/
+*.csv
+*.xlsx
+.env

@@ -54,3 +54,17 @@ Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
 
 ### 💡 Author
 **Gurpreet Singh** — Data Science & Machine Learning Enthusiast
+
+------
+
+In this project, I built a Machine Learning model to predict the survival chances of Titanic passengers based on their age, class, gender, and fare.
+
+I started by cleaning the dataset — handling missing values, converting categorical features like gender and embarkation into numeric format using encoding, and scaling the numeric columns to make the data balanced.
+
+Then I performed Exploratory Data Analysis (EDA) to understand the patterns — for example, females and first-class passengers had higher survival rates.
+
+After that, I trained multiple models such as Logistic Regression, Decision Tree, and Random Forest to compare their performance and find the most accurate one.
+
+Finally, I used a Machine Learning Pipeline to automate all preprocessing and model steps, and saved it using joblib so that it can be reused easily for new datasets or future predictions.
+
+My final Random Forest pipeline achieved around 84% accuracy, making it a strong baseline model for survival prediction.
